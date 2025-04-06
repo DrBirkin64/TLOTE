@@ -6,6 +6,8 @@ _Title Game_Name + " - " + Version
 r = 1
 
 DECLARE SUB CenterPrint (Text$)
+DECLARE SUB CenterPrintWithBorders (Text$) ' Prints a line in the center of the screen with lines of ---- above and below'
+DECLARE SUB CenterPrintWithLine (Text$) ' This function will print text center with a line on both sides of it ---Like This---
 
 Screen 12
 Color 15, 0
