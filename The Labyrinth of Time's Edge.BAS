@@ -5,6 +5,9 @@ _Title Game_Name + " - " + Version
 
 r = 1
 
+DECLARE SUB CenterPrint (Text$)
+DECLARE SUB CenterPrintWithLine (Text$) ' This function will print text center with a line on both sides of it ---Like This---
+
 Screen 12
 Color 15, 0
 Cls
@@ -69,7 +72,7 @@ For roomNum = 1 To MaxRooms
         End If
     Loop
 
-    If foundStart = 0Then Print "Error: Start marker room"; roomNum: Close #1: End
+    If foundStart = 0 Then Print "Error: Start marker room"; roomNum: Close #1: End
 
     ' Read all lines between START and END into buffer
     Do While Not EOF(1)
@@ -85,8 +88,6 @@ For roomNum = 1 To MaxRooms
     nullPos = InStr(buffer$, Chr$(0))
     rooms(roomNum).title = Left$(buffer$, nullPos - 1)
     buffer$ = Mid$(buffer$, nullPos + 1) ' Remove title line
-    print "Title: "; rooms(roomNum).title
-    print buffer$
     lineCount = lineCount - 1
 
     ' Extract Exits (second line)
@@ -225,17 +226,22 @@ Do
     Print "   ����������  �  �  �  �  ����  �  �  ����  ����  �  �  �  �  �  �������  �"
     Print ""
     Print ""
-    PRINT SPACE$(38);
-    IF rooms(r).northExit > 0 THEN PRINT "N" ELSE PRINT " ";
-    PRINT
-    PRINT "                                  ";
-    IF rooms(r).westExit > 0 THEN PRINT "W"; ELSE PRINT " ";
-    PRINT " + ";
-    IF rooms(r).eastExit > 0 THEN PRINT "E"; ELSE PRINT " ";
-    PRINT "                                       "
-    PRINT SPACE$(38);
-    IF rooms(r).southExit > 0 THEN PRINT "S" ELSE PRINT " ";
-    PRINT
+    If rooms(r).northExit > 0 Then
+        CenterPrint("N")
+    ELSE
+        CenterPrint(" ")
+    END IF
+    PartA$ = " "
+    PartB$ = " "
+    If rooms(r).westExit > 0 Then PartA$ = "W"
+    If rooms(r).eastExit > 0 Then PartB$ = "E"
+    CenterPrintWithLine(PartA$ + " + " + PartB$)
+    If rooms(r).southExit > 0 Then
+        CenterPrint("S")
+    ELSE
+        CenterPrint(" ")
+    END IF
+    Print ""
     Print "If you are stuck just type HELP."
     Print
     GoSub ROOM
@@ -330,39 +336,39 @@ End If
 
 If cmd$ = "GO NORTH" Or cmd$ = "NORTH" Or cmd$ = "N" Then
     newRoom = rooms(r).northExit
-    IF newRoom > 0 Then
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 If cmd$ = "GO EAST" Or cmd$ = "EAST" Or cmd$ = "E" Then
-newRoom = rooms(r).eastExit
-    IF newRoom > 0 Then
+    newRoom = rooms(r).eastExit
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 If cmd$ = "GO SOUTH" Or cmd$ = "SOUTH" Or cmd$ = "S" Then
-newRoom = rooms(r).southExit
-    IF newRoom > 0 Then
+    newRoom = rooms(r).southExit
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 If cmd$ = "GO WEST" Or cmd$ = "WEST" Or cmd$ = "W" Then
-newRoom = rooms(r).westExit
-    IF newRoom > 0 Then
+    newRoom = rooms(r).westExit
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 
 '''ITEMS
@@ -6790,3 +6796,15 @@ Function GrabInput$
     _Display
     End
 End Function
+
+Sub CenterPrint (Text$)
+        StartCol = (80 - Len(Text$)) \ 2    
+        IF StartCol < 1 THEN StartCol = 1
+        LOCATE , StartCol
+        PRINT Text$
+End Sub
+
+Sub CenterPrintWithLine (Text$) ' This function will print text center with a line on both sides of it ---Like This---
+    Print String$(80, "-");
+    CenterPrint(Text$)
+End Sub
