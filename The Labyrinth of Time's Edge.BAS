@@ -227,20 +227,20 @@ Do
     Print ""
     Print ""
     If rooms(r).northExit > 0 Then
-        CenterPrint("N")
-    ELSE
-        CenterPrint(" ")
-    END IF
+        CenterPrint ("N")
+    Else
+        CenterPrint (" ")
+    End If
     PartA$ = " "
     PartB$ = " "
     If rooms(r).westExit > 0 Then PartA$ = "W"
     If rooms(r).eastExit > 0 Then PartB$ = "E"
-    CenterPrintWithLine(PartA$ + " + " + PartB$)
+    CenterPrintWithLine (PartA$ + " + " + PartB$)
     If rooms(r).southExit > 0 Then
-        CenterPrint("S")
-    ELSE
-        CenterPrint(" ")
-    END IF
+        CenterPrint ("S")
+    Else
+        CenterPrint (" ")
+    End If
     Print ""
     Print "If you are stuck just type HELP."
     Print
@@ -256,7 +256,7 @@ If paddingLen < 0 Then paddingLen = 0 ' Prevent negative padding
 
 ' Print formatted title and description
 Print "__"; rooms(r).title; String$(paddingLen, "_") ' Replicates __Title______ format
-Print rooms(r).description
+PrintWrapSafe(rooms(r).description)
 Print "_______________________________________________________________________________"
 
 Return
@@ -6808,3 +6808,93 @@ Sub CenterPrintWithLine (Text$) ' This function will print text center with a li
     Print String$(80, "-");
     CenterPrint(Text$)
 End Sub
+
+SUB PrintWrapSafe (Text$)
+    DIM CurrentPos AS INTEGER
+    DIM LineWidth AS INTEGER
+    DIM MaxLength AS INTEGER
+    DIM CurrentLine AS STRING
+    DIM NextWord AS STRING
+    DIM WordStart AS INTEGER
+    DIM WordEnd AS INTEGER
+    DIM PotentialLength AS INTEGER
+    DIM FirstWordOnLine AS INTEGER ' Boolean-like flag: 1 = True, 0 = False
+
+    MaxLength = 80 ' Set the desired maximum line length (adjust as needed)
+    LineWidth = LEN(Text$)
+    CurrentPos = 1
+    CurrentLine = ""
+    FirstWordOnLine = 1 ' True initially, prevents leading space on first line
+
+    WHILE CurrentPos <= LineWidth
+        ' --- Step 1: Find the start of the next word (skip spaces) ---
+        WHILE CurrentPos <= LineWidth AND MID$(Text$, CurrentPos, 1) = " "
+            CurrentPos = CurrentPos + 1
+        WEND
+        IF CurrentPos > LineWidth THEN EXIT WHILE ' Exit if only trailing spaces were left
+
+        WordStart = CurrentPos
+
+        ' --- Step 2: Find the end of the current word ---
+        ' Scan until the next space or the end of the entire text string
+        WordEnd = WordStart
+        WHILE WordEnd <= LineWidth AND MID$(Text$, WordEnd, 1) <> " "
+            WordEnd = WordEnd + 1
+        WEND
+        ' WordEnd now points AT the space after the word, or just PAST the end of Text$
+        WordEnd = WordEnd - 1 ' Adjust to point to the last character OF the word
+
+        ' --- Step 3: Extract the word ---
+        IF WordEnd >= WordStart THEN
+            NextWord = MID$(Text$, WordStart, WordEnd - WordStart + 1)
+        ELSE
+             ' This case should ideally not be reached if logic is sound
+             EXIT WHILE
+        END IF
+
+        ' --- Step 4: Check if the extracted word fits on the current line ---
+        IF FirstWordOnLine = 1 THEN
+            ' If it's the first word, it just needs to fit by itself
+            PotentialLength = LEN(NextWord)
+        ELSE
+            ' Otherwise, need space for current line, a space, and the new word
+            PotentialLength = LEN(CurrentLine) + 1 + LEN(NextWord)
+        END IF
+
+        IF PotentialLength <= MaxLength THEN
+            ' --- Word Fits: Append it to the current line ---
+            IF FirstWordOnLine = 1 THEN
+                CurrentLine = NextWord
+                FirstWordOnLine = 0 ' It's no longer the first word for the next check
+            ELSE
+                CurrentLine = CurrentLine + " " + NextWord
+            END IF
+            ' Advance position past the word we just processed
+            CurrentPos = WordEnd + 1
+        ELSE
+            ' --- Word Does NOT Fit: Print the current line and start new one ---
+            PRINT CurrentLine
+
+            ' The word that didn't fit becomes the start of the new line
+            CurrentLine = NextWord
+            FirstWordOnLine = 0 ' It's the first word added, but don't add space before next
+
+            ' Handle edge case: A single word is longer than MaxLength
+            ' In this simple version, it will be printed on its own line, exceeding MaxLength.
+            ' More complex logic could break the word here if needed.
+            IF LEN(CurrentLine) > MaxLength THEN
+                ' PRINT "*** Warning: Word exceeds MaxLength ***" ' Optional warning
+            END IF
+
+            ' Advance position past the word we just processed
+            CurrentPos = WordEnd + 1
+        END IF
+
+    WEND ' Loop back to process the next word
+
+    ' --- After the loop, print any remaining text in the CurrentLine buffer ---
+    IF LEN(CurrentLine) > 0 THEN
+        PRINT CurrentLine
+    END IF
+
+END SUB
