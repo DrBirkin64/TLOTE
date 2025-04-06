@@ -253,8 +253,6 @@ Print "__"; rooms(r).title; String$(paddingLen, "_") ' Replicates __Title______ 
 Print rooms(r).description
 Print "_______________________________________________________________________________"
 
-' TODO: Add logic here to print items/NPCs present in room 'r' if needed
-
 Return
 
 parser:
