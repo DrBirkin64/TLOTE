@@ -5,6 +5,8 @@ _Title Game_Name + " - " + Version
 
 r = 1
 
+DECLARE SUB CenterPrint (Text$)
+
 Screen 12
 Color 15, 0
 Cls
@@ -69,7 +71,7 @@ For roomNum = 1 To MaxRooms
         End If
     Loop
 
-    If foundStart = 0Then Print "Error: Start marker room"; roomNum: Close #1: End
+    If foundStart = 0 Then Print "Error: Start marker room"; roomNum: Close #1: End
 
     ' Read all lines between START and END into buffer
     Do While Not EOF(1)
@@ -223,17 +225,24 @@ Do
     Print "   ����������  �  �  �  �  ����  �  �  ����  ����  �  �  �  �  �  �������  �"
     Print ""
     Print ""
-    PRINT SPACE$(38);
-    IF rooms(r).northExit > 0 THEN PRINT "N" ELSE PRINT " ";
-    PRINT
-    PRINT "                                  ";
-    IF rooms(r).westExit > 0 THEN PRINT "W"; ELSE PRINT " ";
-    PRINT " + ";
-    IF rooms(r).eastExit > 0 THEN PRINT "E"; ELSE PRINT " ";
-    PRINT "                                       "
-    PRINT SPACE$(38);
-    IF rooms(r).southExit > 0 THEN PRINT "S" ELSE PRINT " ";
-    PRINT
+    CenterPrintWithLine("")
+    If rooms(r).northExit > 0 Then
+        CenterPrint ("N")
+    ELSE
+        CenterPrint(" ")
+    END IF
+    PartA$ = " "
+    PartB$ = " "
+    If rooms(r).westExit > 0 Then PartA$ = "W"
+    If rooms(r).eastExit > 0 Then PartB$ = "E"
+    CenterPrint(PartA$ + " + " + PartB$)
+    If rooms(r).southExit > 0 Then
+        CenterPrint("S")
+    ELSE
+        CenterPrint(" ")
+    END IF
+    CenterPrintWithLine("")
+    Print ""
     Print "If you are stuck just type HELP."
     Print
     GoSub ROOM
@@ -328,39 +337,39 @@ End If
 
 If cmd$ = "GO NORTH" Or cmd$ = "NORTH" Or cmd$ = "N" Then
     newRoom = rooms(r).northExit
-    IF newRoom > 0 Then
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 If cmd$ = "GO EAST" Or cmd$ = "EAST" Or cmd$ = "E" Then
-newRoom = rooms(r).eastExit
-    IF newRoom > 0 Then
+    newRoom = rooms(r).eastExit
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 If cmd$ = "GO SOUTH" Or cmd$ = "SOUTH" Or cmd$ = "S" Then
-newRoom = rooms(r).southExit
-    IF newRoom > 0 Then
+    newRoom = rooms(r).southExit
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 If cmd$ = "GO WEST" Or cmd$ = "WEST" Or cmd$ = "W" Then
-newRoom = rooms(r).westExit
-    IF newRoom > 0 Then
+    newRoom = rooms(r).westExit
+    If newRoom > 0 Then
         r = newRoom
-        GOTO moved
-    ELSE
+        GoTo moved
+    Else
         Print "You can't go that way."
-    END IF
+    End If
 End If
 
 '''ITEMS
@@ -6788,3 +6797,32 @@ Function GrabInput$
     _Display
     End
 End Function
+
+Sub CenterPrint (Text$) ' Prints a line in the center of the screen
+    Const ScreenWidth = 80
+        StartCol = (ScreenWidth - Len(Text$)) \ 2
+    
+        IF StartCol < 1 THEN StartCol = 1
+        LOCATE , StartCol
+        PRINT Text$
+End Sub
+
+Sub CenterPrintWithBorders (Text$) ' Prints a line in the center of the screen with lines of ---- above and below'
+    LineLength = 80 - Len(Text$) - 2
+    LineString$ = String$(LineLength, "-")
+    ' Print the top line
+    Print LineString$
+    
+    ' Print the centered text
+    CenterPrint Text$
+    
+    ' Print the bottom line
+    Print LineString$
+End Sub
+
+Sub CenterPrintWithLine (Text$) ' This function will print text center with a line on both sides of it ---Like This---
+    LineLength = 80 - Len(Text$) - 2
+    Gap$ = String$(LineLength/2, "-")
+    
+    Print Gap$; Text$; Gap$
+End Sub
