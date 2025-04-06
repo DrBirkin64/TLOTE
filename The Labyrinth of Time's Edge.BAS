@@ -6,7 +6,6 @@ _Title Game_Name + " - " + Version
 r = 1
 
 DECLARE SUB CenterPrint (Text$)
-DECLARE SUB CenterPrintWithBorders (Text$) ' Prints a line in the center of the screen with lines of ---- above and below'
 DECLARE SUB CenterPrintWithLine (Text$) ' This function will print text center with a line on both sides of it ---Like This---
 
 Screen 12
@@ -227,9 +226,8 @@ Do
     Print "   ����������  �  �  �  �  ����  �  �  ����  ����  �  �  �  �  �  �������  �"
     Print ""
     Print ""
-    CenterPrintWithLine("")
     If rooms(r).northExit > 0 Then
-        CenterPrint ("N")
+        CenterPrint("N")
     ELSE
         CenterPrint(" ")
     END IF
@@ -237,13 +235,12 @@ Do
     PartB$ = " "
     If rooms(r).westExit > 0 Then PartA$ = "W"
     If rooms(r).eastExit > 0 Then PartB$ = "E"
-    CenterPrint(PartA$ + " + " + PartB$)
+    CenterPrintWithLine(PartA$ + " + " + PartB$)
     If rooms(r).southExit > 0 Then
         CenterPrint("S")
     ELSE
         CenterPrint(" ")
     END IF
-    CenterPrintWithLine("")
     Print ""
     Print "If you are stuck just type HELP."
     Print
@@ -6800,31 +6797,14 @@ Function GrabInput$
     End
 End Function
 
-Sub CenterPrint (Text$) ' Prints a line in the center of the screen
-    Const ScreenWidth = 80
-        StartCol = (ScreenWidth - Len(Text$)) \ 2
-    
+Sub CenterPrint (Text$)
+        StartCol = (80 - Len(Text$)) \ 2    
         IF StartCol < 1 THEN StartCol = 1
         LOCATE , StartCol
         PRINT Text$
 End Sub
 
-Sub CenterPrintWithBorders (Text$) ' Prints a line in the center of the screen with lines of ---- above and below'
-    LineLength = 80 - Len(Text$) - 2
-    LineString$ = String$(LineLength, "-")
-    ' Print the top line
-    Print LineString$
-    
-    ' Print the centered text
-    CenterPrint Text$
-    
-    ' Print the bottom line
-    Print LineString$
-End Sub
-
 Sub CenterPrintWithLine (Text$) ' This function will print text center with a line on both sides of it ---Like This---
-    LineLength = 80 - Len(Text$) - 2
-    Gap$ = String$(LineLength/2, "-")
-    
-    Print Gap$; Text$; Gap$
+    Print String$(80, "-");
+    CenterPrint(Text$)
 End Sub
