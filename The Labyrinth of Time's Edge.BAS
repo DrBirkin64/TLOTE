@@ -85,8 +85,6 @@ For roomNum = 1 To MaxRooms
     nullPos = InStr(buffer$, Chr$(0))
     rooms(roomNum).title = Left$(buffer$, nullPos - 1)
     buffer$ = Mid$(buffer$, nullPos + 1) ' Remove title line
-    print "Title: "; rooms(roomNum).title
-    print buffer$
     lineCount = lineCount - 1
 
     ' Extract Exits (second line)
