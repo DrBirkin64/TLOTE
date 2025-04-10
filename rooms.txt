@@ -4340,8 +4340,9 @@ The faint aroma of burning incense wafts through the air, enveloping you in a se
 --ROOM 868 END--
 --ROOM 869 START--
 The Temple Of Knowledge_: Level Two
+868,0,0,870
 This ancient place of worship, once a sanctuary of knowledge and faith, holds
-echoes of beliefs long forgotten by the surface world. 868,0,0,870
+echoes of beliefs long forgotten by the surface world. 
 --ROOM 869 END--
 --ROOM 870 START--
 The Temple Of Knowledge_: Level Two
@@ -4575,13 +4576,15 @@ For the first time, you find yourself utterly alone in this chaotic place. The s
 --ROOM 915 END--
 --ROOM 916 START--
 Malthera's Realm
+0,917,914,0
  Broken windows and tattered drapes sway gently in the chilling night breeze,
-whispering secrets of a forgotten past. 0,917,914,0
+whispering secrets of a forgotten past.
 --ROOM 916 END--
 --ROOM 917 START--
 Malthera's Realm
+916,0,0,918
  The walls tremble violently, then collapse, revealing an infinite void of
-impenetrable darkness. 916,0,0,918
+impenetrable darkness. 
 --ROOM 917 END--
 --ROOM 918 START--
 Malthera's Realm
@@ -4590,8 +4593,9 @@ A sinister laugh echoes around you, and before you can react, you find yourself 
 --ROOM 918 END--
 --ROOM 919 START--
 Malthera's Realm
+918,924,0,920
  Screams pierce the air, and an unseen force hurls you against the cold,
-unyielding wall. 918,924,0,920
+unyielding wall. 
 --ROOM 919 END--
 --ROOM 920 START--
 Malthera's Realm
@@ -7315,7 +7319,7 @@ A foul stench hangs in the stagnant air, thick and oppressive. The uneasy feelin
 --ROOM 1463 END--
 --ROOM 1464 START--
 The God's Crypt
-0,1463,1465,1466
+1467,1463,1465,1466
 You stand before an archway unlike any other-its surface rippling like liquid silver, shifting with an unnatural stillness.
 --ROOM 1464 END--
 --ROOM 1465 START--
@@ -7328,3 +7332,1173 @@ The God's Crypt
 0,0,1464,0
 A long wooden table is strewn with haphazardly opened books and scattered papers. Whoever was here was working feverishly-until they weren't.
 --ROOM 1466 END--
+--ROOM 1467 START--
+The God's Crypt
+1468,1464,0,0
+Stepping through the archway, you pause AS your eyes struggle to adjust to the shifting light.
+--ROOM 1467 END--
+--ROOM 1468 START--
+The God's Crypt
+1486,1467,1491,1469
+Above, a brilliant blue sky stretches endlessly, the sun's warmth gently embracing you.
+--ROOM 1468 END--
+--ROOM 1469 START--
+The God's Crypt
+0,0,1468,1470
+For a fleeting moment, you are overwhelmed-your mind drifts, caught in the enigma of this place.
+--ROOM 1469 END--
+--ROOM 1470 START--
+The God's Crypt
+0,0,1469,1471
+The silence is broken by the distant chirping of birds, a sound both comforting and unsettling.
+--ROOM 1470 END--
+--ROOM 1471 START--
+The God's Crypt
+1472,0,1470,0
+As you wander, the crystal-blue sky looms above, filling you with a sense of displacement. Where are you?
+--ROOM 1471 END--
+--ROOM 1472 START--
+The God's Crypt
+1473,1471,0,0
+Before you, rows of trees stand in perfect alignment, resembling an ancient orchard.
+--ROOM 1472 END--
+--ROOM 1473 START--
+The God's Crypt
+1474,1472,0,0
+Mountains and clouds stretch as far as the eye can see, an endless vista of solitude.
+--ROOM 1473 END--
+--ROOM 1474 START--
+The God's Crypt
+1475,1473,1477,0
+In the distance, a thin column of smoke rises, curling into the sky like a whispered secret.
+--ROOM 1474 END--
+--ROOM 1475 START--
+The God's Crypt
+0,1474,1476,0
+You stumble upon a young woman crouched over her kill, methodically preparing it for the fire.
+--ROOM 1475 END--
+--ROOM 1476 START--
+The God's Crypt
+1478,1477,0,1475
+A vast, gaping entrance lies before you, beckoning you deeper into the unknown.
+--ROOM 1476 END--
+--ROOM 1477 START--
+The God's Crypt
+1476,0,0,1474
+A distant scream shatters the quiet, echoing across the landscape. 
+--ROOM 1477 END--
+--ROOM 1478 START--
+The God's Crypt
+0,1476,1479,0
+You stand before a hall of mirrors, a place unseen by outsiders for an untold age.
+--ROOM 1478 END--
+--ROOM 1479 START--
+The God's Crypt
+0,0,1480,1478
+Music drifts through the air, yet no source can be found.
+--ROOM 1479 END--
+--ROOM 1480 START--
+The God's Crypt
+0,0,1481,1479
+You've traveled far, adventurer. What brings you to our home? - A mother's voice greets you.
+--ROOM 1480 END--
+--ROOM 1481 START--
+The God's Crypt
+1492,1482,0,1480
+A doorway yawns before you, leading into the darkness. The wind howls, sending a chill down your spine.
+--ROOM 1481 END--
+--ROOM 1482 START--
+The God's Crypt
+1481,1483,0,0
+A gentle breeze brushes against you, yet you remain lost in the beauty of this paradise.
+--ROOM 1482 END--
+--ROOM 1483 START--
+The God's Crypt
+1482,1484,1487,0
+As you roam, a lingering question gnaws at your mind-what is this place?
+--ROOM 1483 END--
+--ROOM 1484 START--
+The God's Crypt
+0,1485,1483,0
+An ancient fountain stands before you, its waters crystal clear despite the passage of time.
+--ROOM 1484 END--
+--ROOM 1485 START--
+The God's Crypt
+1484,1486,1477,0
+A long, weathered stone staircase winds down the steep mountainside.
+--ROOM 1485 END--
+--ROOM 1486 START--
+The God's Crypt
+1485,1468,0,0
+With each step, the sensation of an imminent fall grips you.
+--ROOM 1486 END--
+--ROOM 1487 START--
+The God's Crypt
+1483,0,1488,1485
+Rows of apple trees breathe life into this hidden place-a reminder of what is often taken for granted.
+--ROOM 1487 END--
+--ROOM 1488 START--
+The God's Crypt
+0,1489,0,1487
+Stone slabs, their surfaces darkened with age, bear the unmistakable stain of blood.
+--ROOM 1488 END--
+--ROOM 1489 START--
+The God's Crypt
+1488,1490,0,0
+You freeze. Before you stands a small pyramid-its structure composed of sun bleached skulls.
+--ROOM 1489 END--
+--ROOM 1490 START--
+The God's Crypt
+1489,0,1491,0
+A chill lingers in the air, accompanied by the faint sound of footsteps moving just out of sight.
+--ROOM 1490 END--
+--ROOM 1491 START--
+The God's Crypt
+0,0,1490,1468
+You have only heard whispers of this place-the one the elders spoke of: Mistwatch, home of the gods.
+--ROOM 1491 END--
+--ROOM 1492 START--
+The God's Crypt
+0,1481,1493,0
+Excitement wells within you, yet caution tempers your steps-who knows what traps lie in wait?
+--ROOM 1492 END--
+--ROOM 1493 START--
+The God's Crypt
+1494,0,0,1490
+A long corridor stretches ahead, reeking of death. The buzz of flies is the only sound.
+--ROOM 1493 END--
+--ROOM 1494 START--
+The God's Crypt
+1495,1493,0,0
+The flicker of your lantern reveals shifting shadows-something is tearing into a carcass.
+--ROOM 1494 END--
+--ROOM 1495 START--
+The God's Crypt
+1497,1494,1496,0
+A figure clad in black robes stands before you-a holy man, or something more?
+--ROOM 1495 END--
+--ROOM 1496 START--
+The God's Crypt
+0,0,1509,1495
+A passage, carved into the very heart of the mountain, leads toward the unknown.
+--ROOM 1496 END--
+--ROOM 1497 START--
+The God's Crypt
+0,1495,0,1498
+Scattered bones litter the ground, grim remnants of those left to die here.
+--ROOM 1497 END--
+--ROOM 1498 START--
+The God's Crypt
+1499,0,1497,1500
+From the corner of your eye, you spot rats gnawing on decaying flesh.
+--ROOM 1498 END--
+--ROOM 1499 START--
+The God's Crypt
+0,1498,0,0
+You stand in a place of worship. A sudden pause-a once-proud priest's remains lie before you, impeccably dressed, yet lifeless.
+--ROOM 1499 END--
+--ROOM 1500 START--
+The God's Crypt
+0,1501,1498,0
+The floor rumbles and shifts-beneath it, the tomb of a long-dead warrior is revealed.
+--ROOM 1500 END--
+--ROOM 1501 START--
+The God's Crypt
+1500,1502,0,1505
+Coffins rise from the ground one by one, shaking loose the dust of ages.
+--ROOM 1501 END--
+--ROOM 1502 START--
+The God's Crypt
+1501,0,0,1503
+The village elder stands before you, deep in the midst of a solemn ritual.
+--ROOM 1502 END--
+--ROOM 1503 START--
+The God's Crypt
+1505,1504,1502,0
+You reel in horror-piles of bones lie abandoned, left to decay.
+--ROOM 1503 END--
+--ROOM 1504 START--
+The God's Crypt
+1503,0,0,0
+A prayer glyph, carved into stone, stands forgotten and worn by time.
+--ROOM 1504 END--
+--ROOM 1505 START--
+The God's Crypt
+0,1503,1501,1506
+The longer you remain, the heavier your limbs feel-this place is making you ill.
+--ROOM 1505 END--
+--ROOM 1506 START--
+The God's Crypt
+1507,0,1505,0
+Dried skins hang upon the walls like grotesque trophies of a long-forgotten hunt.
+--ROOM 1506 END--
+--ROOM 1507 START--
+The God's Crypt
+0,1506,0,1508
+A weathered archway looms ahead, its purpose unknown.
+--ROOM 1507 END--
+--ROOM 1508 START--
+The God's Crypt
+0,0,1507,0
+A dead end. Nothing but an unyielding stone wall.
+--ROOM 1508 END--
+--ROOM 1509 START--
+The God's Crypt
+0,0,1510,1496
+Madness coils through this place like a living thing, warping the air with its unseen presence.
+--ROOM 1509 END--
+--ROOM 1510 START--
+The God's Crypt
+1511,0,0,1509
+A strange perfume lingers in the air, its sweet yet unsettling aroma accompanied by distant, ghostly laughter.
+--ROOM 1510 END--
+--ROOM 1511 START--
+The God's Crypt
+1513,1510,1512,0
+Flickering firelight dances in the shadows, carrying the enticing aroma of something cooking in the distance.
+--ROOM 1511 END--
+--ROOM 1512 START--
+The God's Crypt
+0,0,1511,0
+A man in a filthy, tattered brown robe swings an axe absently, lost in conversation with someone-or something-unseen.
+--ROOM 1512 END--
+--ROOM 1513 START--
+The God's Crypt
+1514,1511,0,0
+Tattered tents stand in eerie silence, abandoned long ago, their occupants now little more than whispers on the wind.
+--ROOM 1513 END--
+--ROOM 1514 START--
+The God's Crypt
+0,1513,1515,0
+You freeze. Somewhere in the distance, something crashes to the ground, shattering the silence.
+--ROOM 1514 END--
+--ROOM 1515 START--
+The God's Crypt
+0,0,1516,1514
+Sword in hand, you investigate the source of the noise-only to find yourself utterly, disturbingly alone.
+--ROOM 1515 END--
+--ROOM 1516 START--
+The God's Crypt
+1523,0,1517,1515
+As you wander these forsaken paths, an undeniable feeling settles in your gut-you are being watched.
+--ROOM 1516 END--
+--ROOM 1517 START--
+The God's Crypt
+0,1518,0,1516
+The sharp clatter of a bowl striking the ground rings out. You whirl around only to glimpse a shadow retreating into the darkness.
+--ROOM 1517 END--
+--ROOM 1518 START--
+The God's Crypt
+1517,1520,1519,0
+Endless corridors stretch before you, lined with tombs. This place is not just a crypt-it is a labyrinth of the dead.
+--ROOM 1518 END--
+--ROOM 1519 START--
+The God's Crypt
+0,0,0,1518
+The darkness presses in from all sides, thick and suffocating.
+--ROOM 1519 END--
+--ROOM 1520 START--
+The God's Crypt
+1518,1521,0,0
+Nothing but blackness greets your eyes, an abyss swallowing all light and sound.
+--ROOM 1520 END--
+--ROOM 1521 START--
+The God's Crypt
+1520,0,0,1522
+Turning a corner, you are met with an oppressive silence, so complete it feels as though even your breath is unwelcome here.
+--ROOM 1521 END--
+--ROOM 1522 START--
+The God's Crypt
+0,0,1521,0
+An ancient drinking well stands just off the beaten path, its worn stones whispering of forgotten travelers.
+--ROOM 1522 END--
+--ROOM 1523 START--
+The God's Crypt
+1524,1516,0,0
+You push through the oppressive darkness, your senses straining to make out anything familiar in the pitch-black void. The air is thick with uncertainty, as though the very shadows are closing in on you.
+--ROOM 1523 END--
+--ROOM 1524 START--
+The God's Crypt
+0,1523,1525,0
+Each footfall echoes sharply in the silence, the sound lingering in the air as though the walls themselves are listening to your every move.
+--ROOM 1524 END--
+--ROOM 1525 START--
+The God's Crypt
+1527,0,1526,1524
+The darkness deepens, suffocating and heavy, until it feels as though you are walking into the heart of a raging inferno. The heat is unbearable, though the source remains hidden from view.
+--ROOM 1525 END--
+--ROOM 1526 START--
+The God's Crypt
+0,0,0,1525
+Before you lies nothing but a crumbled heap of stone and debris, an impassable barricade blocking your path forward. The air smells of decay and ruin.
+--ROOM 1526 END--
+--ROOM 1527 START--
+The God's Crypt
+1528,1525,0,0
+In the distance, you glimpse a flicker of light, its glow faint but undeniable. It beckons from behind a crumbling wall, a fragile beacon in the overwhelming dark.
+--ROOM 1527 END--
+--ROOM 1528 START--
+The God's Crypt
+1531,1527,1529,0
+You stumble upon a hasty barricade constructed from salvaged furniture and refuse. A narrow gap in the makeshift wall swings open, as though waiting for your approach.
+--ROOM 1528 END--
+--ROOM 1529 START--
+The God's Crypt
+0,0,1530,1528
+You hold your breath, your senses on high alert, unsure of what you might encounter in this strange place. The silence is heavy with anticipation.
+--ROOM 1529 END--
+--ROOM 1530 START--
+The God's Crypt
+0,0,0,1529
+Piles of broken wood lean precariously against the walls, and the floor is a Print chaotic litter of debris and forgotten remnants. The space feels abandoned, yet somehow alive.
+--ROOM 1530 END--
+--ROOM 1531 START--
+The God's Crypt
+0,1529,0,1532
+A sharp gasp pierces the stillness. You turn swiftly, only to find a paladin, his face filled with surprise at your sudden appearance. His hand hovers near his weapon, unsure whether to defend or welcome you.
+--ROOM 1531 END--
+--ROOM 1532 START--
+The God's Crypt
+0,0,1531,1533
+A voice echoes from somewhere unseen, speaking in a language foreign to your ears. The words carry a strange, urgent cadence, but their meaning eludes you entirely.
+--ROOM 1532 END--
+--ROOM 1533 START--
+The God's Crypt
+1534,0,1532,0
+You stand before a modest gathering-men, women, and children huddled together for warmth and safety. In the center, a woman, her face serene yet resolute, introduces you to the group as though you are expected.
+--ROOM 1533 END--
+--ROOM 1534 START--
+The God's Crypt
+1535,1533,0,0
+Old spears and crude axes hang from the walls, their rusted heads a testament to the harshness of the world outside. The weapons seem almost to watch you, as if waiting for their next wielder.
+--ROOM 1534 END--
+--ROOM 1535 START--
+The God's Crypt
+0,1534,1536,0
+A small stove crackles near the wall, the warmth of the fire mingling with the rich aroma of a simmering meal. The scent is so inviting, it nearly makes you dizzy with hunger.
+--ROOM 1535 END--
+--ROOM 1536 START--
+The God's Crypt
+0,0,1537,1535
+A sharp voice halts you in your tracks. The paladin, eyes gleaming with quiet gratitude, tells you that your arrival is timely. Someone wishes to speak with you further to the north.
+--ROOM 1536 END--
+--ROOM 1537 START--
+The God's Crypt
+1538,0,0,1536
+The remnants of wood, haphazardly piled in one corner, await the flames that have yet to consume them. The air smells faintly of charred timber and missed opportunities.
+--ROOM 1537 END--
+--ROOM 1538 START--
+The God's Crypt
+0,1537,0,1539
+A small table rests in the center of the room, dust clinging to its surface. Upon it lies a weathered book, its cover obscured by the years. A sense of forgotten knowledge clings to it.
+--ROOM 1538 END--
+--ROOM 1539 START--
+The God's Crypt
+1540,0,1538,0
+With a wide grin, an old knight-his armor faded and scarred from long-forgotten battles-greets you. His presence carries the weight of countless stories, each one untold, each one waiting to be discovered.
+--ROOM 1539 END--
+--ROOM 1540 START--
+The God's Crypt
+0,1539,1541,1542
+The sound of rushing water drowns everything else, the relentless roar filling your ears as the liquid crashes around you, as if the very earth itself is being torn asunder.
+--ROOM 1540 END--
+--ROOM 1541 START--
+The God's Crypt
+0,0,0,1540
+A sudden, biting chill cuts through the air. The temperature plummets so swiftly that you are seized with an icy fear-the need to move, to escape, is instinctive. To stop could mean your death.
+--ROOM 1541 END--
+--ROOM 1542 START--
+The God's Crypt
+1543,0,1540,0
+Before you stands a colossal waterfall, its forceful torrent having shattered through a wall of stone. The water plunges into the abyss, vanishing into the darkness below, leaving only the sound of its ceaseless rush.
+--ROOM 1542 END--
+--ROOM 1543 START--
+The God's Crypt
+1544,1542,0,0
+The mist from the rushing water drifts through you, as if you are nothing more than a specter lingering in this place.
+--ROOM 1543 END--
+--ROOM 1544 START--
+The God's Crypt
+1547,1544,1545,0
+The path ahead twists into the unknown, each step shrouded in uncertainty.
+--ROOM 1544 END--
+--ROOM 1545 START--
+The God's Crypt
+0,0,1546,1544
+A narrow passage, hewn from ancient stone, barely wide enough to squeeze through.
+--ROOM 1545 END--
+--ROOM 1546 START--
+The God's Crypt
+0,0,0,1545
+A reinforced wooden door stands before you, locked and unyielding, barring your way forward.
+--ROOM 1546 END--
+--ROOM 1547 START--
+The God's Crypt
+1550,1544,0,1548
+From somewhere in the distance, a faint melody drifts through the air haunting, sorrowful, and wordless.
+--ROOM 1547 END--
+--ROOM 1548 START--
+The God's Crypt
+0,0,1547,1549
+A sudden, blinding light engulfs you, as if you've stumbled into the heart of a dying star.
+--ROOM 1548 END--
+--ROOM 1549 START--
+The God's Crypt
+0,0,1548,0
+Staggering, you grope through the radiance, your vision useless in the overwhelming brilliance.
+--ROOM 1549 END--
+--ROOM 1550 START--
+The God's Crypt
+1553,1547,1551,0
+An oppressive stillness weighs upon you, as though unseen eyes of the long dead are watching from all sides.
+--ROOM 1550 END--
+--ROOM 1551 START--
+The God's Crypt
+0,0,1552,1550
+A skeletal figure sprawls across the ground, its bony hand clutching the tattered remains of an old, weathered blanket.
+--ROOM 1551 END--
+--ROOM 1552 START--
+The God's Crypt
+0,0,0,1551
+A rusted pot dangles above the remnants of long-cooled embers, the ghost of a forgotten meal lingering in the air.
+--ROOM 1552 END--
+--ROOM 1553 START--
+The God's Crypt
+1556,1550,0,1554
+A flurry of movement-rats scatter into the shadows, vanishing as quickly as they appeared.
+--ROOM 1553 END--
+--ROOM 1554 START--
+The God's Crypt
+0,0,1553,1555
+Nothing remains but scattered refuse and decay. Whatever once lay here is long lost to time.
+--ROOM 1554 END--
+--ROOM 1555 START--
+The God's Crypt
+0,0,1554,0
+The path ends abruptly against a cold stone wall-silent, unyielding, and final.
+--ROOM 1555 END--
+--ROOM 1556 START--
+The God's Crypt
+1557,1553,0,0
+You press onward, each uncertain step a gamble in this labyrinth of the unknown.
+--ROOM 1556 END--
+--ROOM 1557 START--
+The God's Crypt
+0,1556,1558,1562
+A shadowy figure stands ahead-a woman, her voice carrying a tune both beautiful and fractured, lost in the madness that surrounds her.
+--ROOM 1557 END--
+--ROOM 1558 START--
+The God's Crypt
+1559,0,0,1557
+Each step through this winding corridor pulls at your senses, as though reality itself wavers, slipping between worlds.
+--ROOM 1558 END--
+--ROOM 1559 START--
+The God's Crypt
+1560,1558,0,0
+A lone figure blocks your path, lantern in one hand, sword in the other, their silhouette motionless against the dim glow.
+--ROOM 1559 END--
+--ROOM 1560 START--
+The God's Crypt
+0,1559,1561,0
+-Halt.- The word rings out, firm and commanding. A soldier steps forward, his eyes scanning you, taking measure of all that you carry.
+--ROOM 1560 END--
+--ROOM 1561 START--
+The God's Crypt
+0,0,1575,1560
+A narrow passage yawns before you, its jagged walls leading either to salvation-or something far worse.
+--ROOM 1561 END--
+--ROOM 1562 START--
+The God's Crypt
+1563,0,1557,0
+Dust and time have claimed this place. Ancient cobwebs dangle from the ceiling, untouched and undisturbed for ages.
+--ROOM 1562 END--
+--ROOM 1563 START--
+The God's Crypt
+1564,1562,0,0
+Echoes of a forgotten age linger, untouched by time, as if the world has simply chosen to look away.
+--ROOM 1563 END--
+--ROOM 1564 START--
+The God's Crypt
+0,1563,0,1565
+A crude gate, hastily assembled from scavenged remnants, stands before you-a silent sentinel barring passage.
+--ROOM 1564 END--
+--ROOM 1565 START--
+The God's Crypt
+1566,0,1564,0
+The air thickens with unseen weight as cobwebs drift unnaturally, swaying as though possessed by an unseen will.
+--ROOM 1565 END--
+--ROOM 1566 START--
+The God's Crypt
+1567,1565,0,0
+In the distance, a pair of malevolent eyes gleam, unblinking, watching waiting.
+--ROOM 1566 END--
+--ROOM 1567 START--
+The God's Crypt
+0,1566,1568,0
+From the abyssal dark emerges a lone figure, its mind long surrendered to the chaos of insanity.
+--ROOM 1567 END--
+--ROOM 1568 START--
+The God's Crypt
+1570,0,1569,1567
+A mournful wind howls through the corridor, ushering you toward a being shrouded in shifting veils of silk and shadow.
+--ROOM 1568 END--
+--ROOM 1569 START--
+The God's Crypt
+0,0,0,1568
+An endless expanse of webbing stretches before you, whispering an unspoken invitation into the depths beyond.
+--ROOM 1569 END--
+--ROOM 1570 START--
+The God's Crypt
+1571,1568,0,0
+The walls seem to tighten around you, pressing in with an unseen force. You feel the weight of unseen eyes tracing your every move.
+--ROOM 1570 END--
+--ROOM 1571 START--
+The God's Crypt
+1572,1570,0,0
+Bones litter the ground, their presence a grim testament to those who came before. A lingering dread clings to this forsaken place.
+--ROOM 1571 END--
+--ROOM 1572 START--
+The God's Crypt
+0,1571,1573,0
+Thick spider webs block your path. As you raise your sword to strike, the strands recoil and slither away, granting you passage.
+--ROOM 1572 END--
+--ROOM 1573 START--
+The God's Crypt
+1574,0,0,1572
+A gaping maw in the earth reveals a winding staircase, its steps descending into the unknown.
+--ROOM 1573 END--
+--ROOM 1574 START--
+The God's Crypt
+1610,1574,0,0
+You peer over the edge of a vast subterranean cavern. The stone steps lead ever downward, each footfall accompanied by the distant, haunting cries of a Calling Bird.
+--ROOM 1574 END--
+--ROOM 1575 START--
+The God's Crypt
+0,0,1576,1561
+Without warning, you find yourself standing at the threshold of an ancient sepulcher, a solemn place where the dead have long been laid to rest.
+--ROOM 1575 END--
+--ROOM 1576 START--
+The God's Crypt
+0,1577,0,1575
+The air is thick and oppressive as you cautiously tread through this forgotten domain, each step heavy with unseen weight.
+--ROOM 1576 END--
+--ROOM 1577 START--
+The God's Crypt
+1576,1578,0,0
+Just ahead, through the dim murk, you glimpse a shadowy figure drifting aimlessly-whether human or something else, you cannot yet tell.
+--ROOM 1577 END--
+--ROOM 1578 START--
+The God's Crypt
+1577,0,1579,0
+A step forward, and suddenly, you pass through what seemed to be solid stone. Beyond it lies a hushed and hidden realm.
+--ROOM 1578 END--
+--ROOM 1579 START--
+The God's Crypt
+0,1580,0,1578
+The walls here bear exquisite artistry, intricate murals and reliefs from the earliest days of this lost civilization.
+--ROOM 1579 END--
+--ROOM 1580 START--
+The God's Crypt
+1579,1581,0,0
+A faint, unexpected scent of ripe fruit lingers in the still air, an echo of something long past. 
+--ROOM 1580 END--
+--ROOM 1581 START--
+The God's Crypt
+1580,0,1582,0
+Navigating the twisting, narrow passages, you come upon two figures engaged in hushed conversation, their words just out of reach.
+--ROOM 1581 END--
+--ROOM 1582 START--
+The God's Crypt
+0,1583,0,1581
+Small homes, haphazardly built from whatever materials could be salvaged, stand as a testament to the struggles of those who once dwelled here.
+--ROOM 1582 END--
+--ROOM 1583 START--
+The God's Crypt
+1582,1584,1590,0
+The people you encounter here wear the weight of survival in their eyes-each one bearing the marks of a hardship endured.
+--ROOM 1583 END--
+--ROOM 1584 START--
+The God's Crypt
+1583,0,0,1585
+In the dim light, figures toil with makeshift pickaxes, chipping away at the rock in a desperate search for escape.
+--ROOM 1584 END--
+--ROOM 1585 START--
+The God's Crypt
+0,1589,1584,0
+You step into the mine, yet the workers pay you no mind, their focus entirely on their unending labor.
+--ROOM 1585 END--
+--ROOM 1586 START--
+The God's Crypt
+1585,1588,0,1587
+Lanterns flicker, casting uneasy shadows as you press deeper into the unknown.
+--ROOM 1586 END--
+--ROOM 1587 START--
+The God's Crypt
+0,0,1586,0
+Strange symbols cover the walls, their meaning lost to time. Nearby, candles burn low, melting into pools of wax.
+--ROOM 1587 END--
+--ROOM 1588 START--
+The God's Crypt
+1586,0,1589,0
+At the center of the room rests a lone coffin. The distant sound of pickaxes striking stone echoes through the underground chambers.
+--ROOM 1588 END--
+--ROOM 1589 START--
+The God's Crypt
+0,0,0,1588
+The tunnel ends abruptly, an unforgiving dead end in this labyrinthine prison beneath the earth.
+--ROOM 1589 END--
+--ROOM 1590 START--
+The God's Crypt
+0,0,1591,1583
+Following the winding path, you stumble upon a ceremony in progress-its purpose and participants cloaked in mystery.
+--ROOM 1590 END--
+--ROOM 1591 START--
+The God's Crypt
+1597,0,1582,1590
+Small groups of robed figures kneel in whispered prayer, their voices weaving a tapestry of devotion that seems to drift beyond this world.
+--ROOM 1591 END--
+--ROOM 1592 START--
+The God's Crypt
+0,1593,0,1591
+As you round the corner, a young woman clutching a woven basket greets you with cautious curiosity.
+--ROOM 1592 END--
+--ROOM 1593 START--
+The God's Crypt
+1592,1596,1594,0
+Dust lingers in the air of this dimly lit storeroom, where empty baskets sit stacked like forgotten relics of purpose long abandoned.
+--ROOM 1593 END--
+--ROOM 1594 START--
+The God's Crypt
+0,1595,0,1593
+A rat scurries across the cracked stone floor, vanishing into the shadows of this desolate chamber.
+--ROOM 1594 END--
+--ROOM 1595 START--
+The God's Crypt
+1594,0,0,1596
+Hunched over in the dim light, an old man rummages through the dust and echoes, searching in vain for something to eat.
+--ROOM 1595 END--
+--ROOM 1596 START--
+The God's Crypt
+1593,0,1595,0
+A crude wooden desk stands at the center of the room, its caretaker absent. The silence here feels unnatural, pressing in like a held breath.
+--ROOM 1596 END--
+--ROOM 1597 START--
+The God's Crypt
+1598,1591,0,0
+Before you, a grand archway opens into the unknown, flanked by a weathered statue-a solemn guardian of faith, its hollow gaze watching your every move.
+--ROOM 1597 END--
+--ROOM 1598 START--
+The God's Crypt
+1602,1597,0,1599
+The path twists and coils, drawing you deeper into the abyss, where the air itself feels heavy with unseen forces.
+--ROOM 1598 END--
+--ROOM 1599 START--
+The God's Crypt
+1600,0,1598,0
+Reality wavers around you, the walls shifting as if this place is breathing, watching-alive.
+--ROOM 1599 END--
+--ROOM 1600 START--
+The God's Crypt
+1605,1599,1602,1601
+The stone walls crumble, revealing a forgotten aqueduct, its ancient stones weeping water that falls in a steady, rain-like rhythm upon the floor.
+--ROOM 1600 END--
+--ROOM 1601 START--
+The God's Crypt
+0,0,1600,0
+The ground ends abruptly before a sheer drop. Below, dark waters rise, their swirling currents whispering secrets in an ancient tongue.
+--ROOM 1601 END--
+--ROOM 1602 START--
+The God's Crypt
+0,1598,1603,1600
+You pick your way through mounds of rubble, the remnants of shattered paths and forgotten histories.
+--ROOM 1602 END--
+--ROOM 1603 START--
+The God's Crypt
+0,0,1604,1602
+In the distance, the water continues to rise, swallowing the land with eerie, unrelenting patience.
+--ROOM 1603 END--
+--ROOM 1604 START--
+The God's Crypt
+0,0,0,1603
+A towering statue looms before you-an ancient god frozen in time. Then, with a slow, deliberate motion, its stone eyes lift, and it steps down from its pedestal.
+--ROOM 1604 END--
+--ROOM 1605 START--
+The God's Crypt
+1606,1600,0,0
+A luminous orb detaches from the wall, hovering silently before you. It watches. It waits.
+--ROOM 1605 END--
+--ROOM 1606 START--
+The God's Crypt
+1607,1605,1609,0
+A chill slithers through the air. Frost crackles along the walls, ice creeping across the floor like a living thing.
+--ROOM 1606 END--
+--ROOM 1607 START--
+The God's Crypt
+0,1606,1608,0
+A thunderous crash-the ceiling caves in! Amid the settling dust, skeletal remains tumble from above, their empty sockets staring.
+--ROOM 1607 END--
+--ROOM 1608 START--
+The God's Crypt
+0,1609,0,1607
+This chamber is utterly barren-just stone walls, a floor, and the weight of nothingness pressing in.
+--ROOM 1608 END--
+--ROOM 1609 START--
+The God's Crypt
+1608,0,0,1606
+Silence drapes over you like a thick fog. For a moment, the world pauses, offering a fleeting sense of rest.
+--ROOM 1609 END--
+--ROOM 1610 START--
+The God's Crypt
+1611,1574,0,0
+You step cautiously into the great unknown, the air thick with an eerie stillness.
+--ROOM 1610 END--
+--ROOM 1611 START--
+The God's Crypt
+1612,1611,0,0
+A long staircase ascends into the void, each step vanishing into the oppressive darkness above.
+--ROOM 1611 END--
+--ROOM 1612 START--
+The God's Crypt
+1613,1611,0,0
+The ancient steps tremble beneath your feet, crumbling into the abyss as you rush toward higher ground.
+--ROOM 1612 END--
+--ROOM 1613 START--
+The God's Crypt
+0,1612,1614,1621
+You stand atop the crypt, gazing out into the endless heavens. The stars seem unnervingly close, as if peering down upon the world with silent judgment.
+--ROOM 1613 END--
+--ROOM 1614 START--
+The God's Crypt
+1616,0,1615,1613
+Twisting corridors extend in all directions, their paths lost to the whispers of an unspoken past.
+--ROOM 1614 END--
+--ROOM 1615 START--
+The God's Crypt
+0,0,0,1614
+The ground shudders violently before splitting apart, revealing shifting bands of luminous energy beneath.
+--ROOM 1615 END--
+--ROOM 1616 START--
+The God's Crypt
+1617,1614,0,0
+Each step forward only deepens your disorientation, the labyrinth around you shifting as if resisting your passage.
+--ROOM 1616 END--
+--ROOM 1617 START--
+The God's Crypt
+0,1616,1618,0
+A frigid breeze brushes past, carrying with it the faint, rhythmic creak of something swaying in the unseen void above.
+--ROOM 1617 END--
+--ROOM 1618 START--
+The God's Crypt
+1623,0,1617,1619
+Tattered ropes and weathered planks are all that remain of an ancient bridge, swaying ever so slightly in the unseen current.
+--ROOM 1618 END--
+--ROOM 1619 START--
+The God's Crypt
+0,1610,1618,0
+An inexplicable dread coils around you, the sensation of unseen eyes lingering in the periphery of your vision.
+--ROOM 1619 END--
+--ROOM 1620 START--
+The God's Crypt
+1619,1621,0,0
+A sudden, piercing shriek shatters the silence, its echo spiraling into the consuming darkness beyond.
+--ROOM 1620 END--
+--ROOM 1621 START--
+The God's Crypt
+1620,0,1613,1622
+A narrow passage winds its way into a small, shadowed entrance, the air thick with the scent of damp stone.
+--ROOM 1621 END--
+--ROOM 1622 START--
+The God's Crypt
+0,0,1621,0
+The moon's gentle glow bathes the landscape in silver light, filling you with a fleeting sense of peace.
+--ROOM 1622 END--
+--ROOM 1623 START--
+The God's Crypt
+1624,1618,0,0
+The bridge lies still in the silence, yet each step sends ripples through its fragile frame, threatening to betray your balance.
+--ROOM 1623 END--
+--ROOM 1624 START--
+The God's Crypt
+1625,1623,0,0
+As you tread upon the bridge, it groans underfoot, its swaying motion clutching at your breath like an unseen hand.
+--ROOM 1624 END--
+--ROOM 1625 START--
+The God's Crypt
+0,1624,1626,1632
+You stand at the precipice of a decayed rope bridge, its fate-and yours uncertain should it fail.
+--ROOM 1625 END--
+--ROOM 1626 START--
+The God's Crypt
+1627,0,0,1625
+A low, vibrating hum reverberates through the chamber, threading an icy shiver down your spine.
+--ROOM 1626 END--
+--ROOM 1627 START--
+The God's Crypt
+1628,1626,0,0
+A faint, distant glow pulses in the shadows ahead, its source unknown.
+--ROOM 1627 END--
+--ROOM 1628 START--
+The God's Crypt
+0,1627,0,1629
+In an instant, a blinding flash engulfs you, and the world around you shifts have you crossed into another realm?
+--ROOM 1628 END--
+--ROOM 1629 START--
+The God's Crypt
+1634,1633,1628,1630
+You stand before an archway pulsating with an almost hypnotic energy, its resonance lulling your senses into a fragile calm.
+--ROOM 1629 END--
+--ROOM 1630 START--
+The God's Crypt
+0,1631,1629,0
+Dim light flickers along the path ahead, barely enough to guide your way as you press forward into the unknown.
+--ROOM 1630 END--
+--ROOM 1631 START--
+The God's Crypt
+1630,1632,00
+From the corner of your eye, shadowy figures flicker in and out of existence, moving as though they walk beside you.
+--ROOM 1631 END--
+--ROOM 1632 START--
+The God's Crypt
+1631,0,1625,0
+The rapid patter of unseen footsteps vanishes into the consuming darkness beyond.
+--ROOM 1632 END--
+--ROOM 1633 START--
+The God's Crypt
+0,0,0,1629
+A massive, rotating orb hovers above a metallic platform, emitting a strange, otherworldly sound that unsettles the deepest part of your mind.
+--ROOM 1633 END--
+--ROOM 1634 START--
+The God's Crypt
+0,1629,1635,0
+Moss clings to the walls, and ancient trees have forced their way through the cracked stone floor, their roots twisting like grasping fingers.
+--ROOM 1634 END--
+--ROOM 1635 START--
+The God's Crypt
+0,0,1636,1634
+A flock of birds takes flight above you, their wings slicing through the sky as the sun's warmth breathes fleeting life into your weary bones.
+--ROOM 1635 END--
+--ROOM 1636 START--
+The God's Crypt
+1637,0,0,1635
+The trail winds ahead, uncertain and unmarked, each step carrying you deeper into the unknown.
+--ROOM 1636 END--
+--ROOM 1637 START--
+The God's Crypt
+1638,1636,0,0
+The earth trembles beneath your feet, stone and dust shifting away to unveil the forgotten entrance to a lost village.
+--ROOM 1637 END--
+--ROOM 1638 START--
+The God's Crypt
+0,1637,1640,1639
+Weathered homes, their walls scarred by time, stand defiantly against the elements, scattered across the landscape like echoes of a forgotten past.
+--ROOM 1638 END--
+--ROOM 1639 START--
+The God's Crypt
+0,0,1638,0
+The air is alive with birdsong and the enticing aroma of a meal being prepared, stirring memories of warmth and comfort.
+--ROOM 1639 END--
+--ROOM 1640 START--
+The God's Crypt
+0,1641,0,1638
+Perched atop the overlook, you find yourself breathless-not from the climb, but from the sheer, unearthly beauty of the view before you.
+--ROOM 1640 END--
+--ROOM 1641 START--
+The God's Crypt
+1640,0,1642,0
+A sudden bleat startles you-the call of a few sheep hidden just beyond sight.
+--ROOM 1641 END--
+--ROOM 1642 START--
+The God's Crypt
+0,0,1643,1641
+Laughter drifts through the air, and from the corner of your eye, you catch a glimpse of a small gathering of people, their faces alight with joy.
+--ROOM 1642 END--
+--ROOM 1643 START--
+The God's Crypt
+1644,0,0,1642
+Before you lies a garden, wild yet thriving, where every imaginable plant stretches toward the sun in a vibrant display of life.
+--ROOM 1643 END--
+--ROOM 1644 START--
+The God's Crypt
+1645,1643,0,0
+Thin, sinewy vines slither up through the cracked stone floor, as if the very earth is alive and watching.
+--ROOM 1644 END--
+--ROOM 1645 START--
+The God's Crypt
+0,1644,1646,0
+The world around you is unnervingly flawless-so pristine, so precise, that it feels like an illusion waiting to shatter.
+--ROOM 1645 END--
+--ROOM 1646 START--
+The God's Crypt
+1647,0,0,1645
+A grand fountain stands before you, its waters impossibly clear, shimmering like liquid glass. As you touch it, the icy chill sends a jolt through your fingertips.
+--ROOM 1646 END--
+--ROOM 1647 START--
+The God's Crypt
+0,1646,0,1645
+Reality bends and twists. The ground beneath you dissolves, the sky swirls into a maelstrom of color, and in a blink, you stand somewhere else-somewhere impossible.
+--ROOM 1647 END--
+--ROOM 1648 START--
+The God's Crypt
+1649,0,1647,0
+A narrow, winding path leads into a landscape scarred by fire. Blackened trees claw at the sky, their charred remains whispering secrets in the wind.
+--ROOM 1648 END--
+--ROOM 1649 START--
+The God's Crypt
+1650,1648,0,1651
+The wind howls through the emptiness, carrying with it the eerie silence of a place abandoned by time itself.
+--ROOM 1649 END--
+--ROOM 1650 START--
+The God's Crypt
+1670,1649,0,0
+Before you, an ancient archway looms. As the wind howls through it, an unseen force spirals into a vortex of raw energy, threatening to pull you in.
+--ROOM 1650 END--
+--ROOM 1651 START--
+The God's Crypt
+0,0,1649,1652
+From the cracked earth, skeletal hands erupt, grasping hungrily at your legs, their bony fingers eager to claim the living.
+--ROOM 1651 END--
+--ROOM 1652 START--
+The God's Crypt
+1653,0,1651,0
+A distant, malevolent laugh echoes through the void, its chilling resonance slithering down your spine like an unseen specter.
+--ROOM 1652 END--
+--ROOM 1653 START--
+The God's Crypt
+1654,1652,0,0
+Glowing eyes pierce the darkness-the spectral remnants of the Dancers of Souls, forever cursed to wander the streets, miming the routines of their forgotten lives.
+--ROOM 1653 END--
+--ROOM 1654 START--
+The God's Crypt
+0,1653,0,1655
+You stand before the towering gates of a forgotten temple, its weathered stone adorned with carvings of a fallen god-one whose name lingers in whispers, but never in prayers.
+--ROOM 1654 END--
+--ROOM 1655 START--
+The God's Crypt
+0,1656,1654,1657
+Your lantern flickers uncertainly as torches along the walls ignite in a sudden, eerie sequence, casting wavering shadows that dance like restless spirits.
+--ROOM 1655 END--
+--ROOM 1656 START--
+The God's Crypt
+1655,0,0,0
+The ground quakes beneath you, and with a dreadful lurch, the floor collapses, revealing a yawning pit filled with a strange, undulating liquid that seems almost alive.
+--ROOM 1656 END--
+--ROOM 1657 START--
+The God's Crypt
+1658,0,1655,0
+Peering into the pool's inky depths, you catch glimpses of something shifting just beneath the surface-too fluid for a shadow, too solid for a ripple.
+--ROOM 1657 END--
+--ROOM 1658 START--
+The God's Crypt
+1659,1657,0,0
+A steady, rhythmic drip echoes from above, each droplet punctuating the silence, as if the place itself were breathing in the darkness.
+--ROOM 1658 END--
+--ROOM 1659 START--
+The God's Crypt
+0,1658,1660,0
+From the corner of your eye, a shape erupts from the liquid's surface-only to vanish an instant later, leaving behind nothing but widening ripples and a lingering sense of unease.
+--ROOM 1659 END--
+--ROOM 1660 START--
+The God's Crypt
+1662,0,1661,1659
+A lone stone platform juts into the abyss, its edges crumbling with age. From below, faint, hollow howls rise-whispers of the restless dead.
+--ROOM 1660 END--
+--ROOM 1661 START--
+The God's Crypt
+0,0,0,1660
+Before you lies a fractured path, its stones brittle and treacherous. Each step forward feels like a gamble against the abyss.
+--ROOM 1661 END--
+--ROOM 1662 START--
+The God's Crypt
+1663,1660,0,0
+You inch forward through the oppressive darkness when, from somewhere unseen, a chilling scream tears through the void-a sound of anguish, or warning.
+--ROOM 1662 END--
+--ROOM 1663 START--
+The God's Crypt
+0,1662,1664,0
+The remains of long-forgotten souls litter the ground, their skeletal forms frozen in repose. At the center of the chamber stands an altar, its worn surface stained with the weight of forgotten rites.
+--ROOM 1663 END--
+--ROOM 1664 START--
+The God's Crypt
+0,0,1665,1664
+A frail monk, his robes tattered and his eyes wild with desperation, searches frantically through the chamber-seeking something vital, or perhaps simply seeking escape.
+--ROOM 1664 END--
+--ROOM 1665 START--
+The God's Crypt
+1666,0,0,1664
+Towering mounds of skeletal remains loom in eerie silence-monuments to those who perished within these walls, their stories lost to time.
+--ROOM 1665 END--
+--ROOM 1666 START--
+The God's Crypt
+1667,1665,0,0
+A narrow staircase winds downward, descending into the choking darkness, its steps worn smooth by countless feet that have come before you-and never returned.
+--ROOM 1666 END--
+--ROOM 1667 START--
+The God's Crypt
+0,1666,0,1668
+The walls are blackened with soot, their surfaces cracked from searing heat. In the center of the chamber, the husk of a massive firepit stands, long since extinguished, yet reeking of something far older than mere flame.
+--ROOM 1667 END--
+--ROOM 1668 START--
+The God's Crypt
+0,1669,1667,0
+Stacks of decrepit furniture line the walls, their forms sagging with age. Some pieces appear hastily moved, as if someone-or something-searched in desperation.
+--ROOM 1668 END--
+--ROOM 1669 START--
+The God's Crypt
+1668,0,0,0
+A message, hastily scrawled, mars the wall in jagged strokes. At its base, the crumpled remains of a monk lie motionless on the floor, his final purpose forever unknown.
+--ROOM 1669 END--
+--ROOM 1670 START--
+The God's Crypt
+1671,1650,0,0
+You find yourself transported to a realm that feels eerily familiar, as if drawn from the depths of a forgotten memory.
+--ROOM 1670 END--
+--ROOM 1671 START--
+The God's Crypt
+0,1670,0,1672
+A cool breeze whispers past you, carrying the scent of earth and time. The sun, warm and gentle, feels like a quiet renewal of life itself.
+--ROOM 1671 END--
+--ROOM 1672 START--
+The God's Crypt
+1673,0,1671,0
+Twisted trees dot the landscape, their gnarled branches standing against an ocean of silence.
+--ROOM 1672 END--
+--ROOM 1673 START--
+The God's Crypt
+1674,1672,0,0
+For a fleeting moment, an unshakable sense of peace washes over you, as if the world itself has stilled in quiet harmony.
+--ROOM 1673 END--
+--ROOM 1674 START--
+The God's Crypt
+0,1673,0,1675
+A narrow, timeworn trail snakes through the earth, leading toward what appears to be a long-abandoned village.
+--ROOM 1674 END--
+--ROOM 1675 START--
+The God's Crypt
+1676,0,1674,0
+Ruined homes, their walls worn thin by the merciless hands of time, stand as silent testaments to lives long forgotten.
+--ROOM 1675 END--
+--ROOM 1676 START--
+The God's Crypt
+1679,1675,0,1677
+Weathered fences, once built to corral livestock, now lie half-buried beneath wild grass and creeping ivy.
+--ROOM 1676 END--
+--ROOM 1677 START--
+The God's Crypt
+0,0,1676,1678
+An old stone well stands solemnly, its bucket hanging from a frayed rope, swaying ever so slightly in the breeze.
+--ROOM 1677 END--
+--ROOM 1678 START--
+The God's Crypt
+0,0,1678,0
+The path ahead crumbles into treacherous ruin, eroded by years of neglect and the slow hunger of time.
+--ROOM 1678 END--
+--ROOM 1679 START--
+The God's Crypt
+0,1676,1680,0
+A sudden, jarring slam of a door shatters the silence, echoing through the empty air and demanding your attention.
+--ROOM 1679 END--
+--ROOM 1680 START--
+The God's Crypt
+1681,0,0,1679
+You halt abruptly. An old woman stands before you, her eyes heavy with stories. She looks as though she has been here for ages, waiting.
+--ROOM 1680 END--
+--ROOM 1681 START--
+The God's Crypt
+0,1680,1682,0
+An ancient church looms before you, its stone walls shaped by the hands of the faithful centuries ago.
+--ROOM 1681 END--
+--ROOM 1682 START--
+The God's Crypt
+1683,0,0,1681
+With a slow, deliberate push, the heavy door groans open, revealing a yawning abyss of darkness within.
+--ROOM 1682 END--
+--ROOM 1683 START--
+The God's Crypt
+1684,1682,0,0
+Dust blankets the floors and walls, while heavy furniture clogs the windows, choking out what little light remains.
+--ROOM 1683 END--
+--ROOM 1684 START--
+The God's Crypt
+0,1683,1685,1688
+Not a soul in sight. Your lantern's flickering glow dances across the walls, casting long, sinister shadows that seem to shift on their own.
+--ROOM 1684 END--
+--ROOM 1685 START--
+The God's Crypt
+1686,0,0,1684
+A narrow hallway stretches into the unknown, swallowed by darkness. Just as you take a step forward, the unmistakable sound of footsteps echoes from beyond. 
+--ROOM 1685 END--
+--ROOM 1686 START--
+The God's Crypt
+0,1685,0,1687
+A small room lined with ancient books, their pages thick with dust and time.
+--ROOM 1686 END--
+--ROOM 1687 START--
+The God's Crypt
+0,0,1686,0
+The decayed remains of a long-forgotten monk sit slumped in an old wooden chair, slowly returning to dust.
+--ROOM 1687 END--
+--ROOM 1688 START--
+The God's Crypt
+0,0,1684,1689
+You walk past the rows of pews and soon find yourself standing before the altar.
+--ROOM 1688 END--
+--ROOM 1689 START--
+The God's Crypt
+0,0,1688,1690
+Stepping through a narrow doorway, you emerge before an overgrown cemetery, its silence heavy with age.
+--ROOM 1689 END--
+--ROOM 1690 START--
+The God's Crypt
+1691,0,1690,0
+Slowly, you wade through the thick, overgrown grass, each step swallowed by nature's reclaiming grasp.
+--ROOM 1690 END--
+--ROOM 1691 START--
+The God's Crypt
+1693,1690,1692,0
+The sound of creaking echoes as an old iron gate sways in the restless breeze.
+--ROOM 1691 END--
+--ROOM 1692 START--
+The God's Crypt
+0,0,0,1691
+A weathered stone bench rests upon a cracked slab, half-hidden by creeping ivy.
+--ROOM 1692 END--
+--ROOM 1693 START--
+The God's Crypt
+1694,1691,0,0
+A creeping unease settles over you—an unseen force watches from the shadows.
+--ROOM 1693 END--
+--ROOM 1694 START--
+The God's Crypt
+0,1693,1695,1696
+Without warning, a lone rider appears from nowhere, their horse's hooves stirring the silence.
+--ROOM 1694 END--
+--ROOM 1695 START--
+The God's Crypt
+1701,0,0,1694
+Before you stretches a long, winding road that vanishes into uncharted lands.
+--ROOM 1695 END--
+--ROOM 1696 START--
+The God's Crypt
+0,0,1694,1697
+The skeletal remains of abandoned homes stand as grim reminders of what comes after life.
+--ROOM 1696 END--
+--ROOM 1697 START--
+The God's Crypt
+1698,0,1696,1700
+A small orchard of apple trees stands before you, their gnarled branches reaching skyward in orderly rows.
+--ROOM 1697 END--
+--ROOM 1698 START--
+The God's Crypt
+0,1697,0,1699
+You press onward through the ever-thickening wilderness, where nature tightens its grip on the forgotten path.
+--ROOM 1698 END--
+--ROOM 1699 START--
+0,1700,1698,0
+1600,0,1598,0
+A friendly hunter greets you with a warm smile—it's been a long time since she's seen another soul here.
+--ROOM 1699 END--
+--ROOM 1700 START--
+The God's Crypt
+1699,0,1697,0
+Nothing remains but a pile of bones and worthless trinkets scavenged from the abandoned homes.
+--ROOM 1700 END--
